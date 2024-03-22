@@ -187,11 +187,29 @@ namespace ConsoleApp
              * >=
              * <
              * <=
-             * ==
-             * !=
+             * == boring
+             * != 
+             * ||
              */
 
             // i do not coment this -.-
         }
+
+        private static void ThirtySeven()
+        {
+            // multiple conditions
+
+            // use &&
+
+        }
+
+        // ThirtyEight is if else blah
+        // You can also use if then else like this:
+        // condition ? then do this code : else to this code
+
+        // ThirtyNine = else if
+
+        // FourtyTwo here the teacher checks two conditions
+        int justForPushingToGithub = 0;
     }
 }
