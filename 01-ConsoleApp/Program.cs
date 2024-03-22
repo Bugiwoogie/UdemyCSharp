@@ -102,12 +102,96 @@ namespace ConsoleApp
 
         private static void TwentyThree()
         {
+            // declaration and initialization
             int[] numbers = new int[3]
             {
                 1,
                 2,
                 3
             };
+        }
+
+        private static void TwentyFive()
+        {
+            // sorting
+            int[] numbers = new int[3]
+            {
+                1,
+                69,
+                3
+            };
+            Array.Sort(numbers); // asc
+        }
+
+        private static void TwentySix()
+        {
+            // other datatypes
+            string[] words = new string[3]
+            {
+                "omg",
+                "boring",
+                "mhpf"
+            };
+        }
+
+        private static void TwentyEight()
+        {
+            // array index and loops
+            int[] numbers = new int[] { 50, 200, 75 };
+            int result = 0;
+
+            // foreach
+            foreach (int value in numbers)
+            {
+                result += value;
+            }
+            Console.WriteLine(result);
+
+
+            // for loop
+            result = 0;
+            for (int index = 0; index < numbers.Length; index++)
+            {
+                // Console.WriteLine(numbers[index]);
+                result = result + numbers[index];
+            }
+
+            // while loop
+            int i = 0;
+            while (i < 10)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+
+            // do while
+            do { /*code gets executed */ } while ( true); // after this there is a check
+        }
+
+        // 6. If Statements
+        private static void ThirtyFive()
+        {
+            // introduction
+            int number = 10;
+            if (number > 10)
+            {
+                // execute some code
+            }
+        }
+
+        private static void ThirtySix()
+        {
+            // operators
+            /*
+             * >
+             * >=
+             * <
+             * <=
+             * ==
+             * !=
+             */
+
+            // i do not coment this -.-
         }
     }
 }
