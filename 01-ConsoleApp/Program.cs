@@ -211,5 +211,10 @@ namespace ConsoleApp
 
         // FourtyTwo here the teacher checks two conditions
         int justForPushingToGithub = 0;
+
+        // 7. To-Do App... i just watch this because it is simple af
+
+        // 8. object relational progamming
+
     }
 }
