@@ -6,8 +6,10 @@ namespace ConsoleApp
         public static void Main(string[] args)
         {
             // i call all my lessions as private methods from here
-            Thirteen();
+            Nineteen();
         }
+
+        // 2. Variables
 
         // i had the cool idea to split everthing into private methods for a better overview
         private static void Ten()
@@ -58,6 +60,8 @@ namespace ConsoleApp
             Console.WriteLine(username);
         }
 
+        // 3. User input
+
         private static void Eighteen()
         {
             // user input
@@ -70,12 +74,40 @@ namespace ConsoleApp
 
         private static void Nineteen()
         {
-            // user input
-            Console.WriteLine("Biite gib deinen Namen ein:");
-            string name = Console.ReadLine();
+            // DateTime
+            Console.WriteLine("Wie alt bist du? ");
+            string age = Console.ReadLine();
 
-            Console.WriteLine("Dein Name ist " + name);
+            int birthYear = DateTime.Now.Year - int.Parse(age);
 
+            Console.WriteLine("Dein Geburtsjahr ist: " + birthYear + "... oder " + (birthYear - 1));
+        }
+
+        private static void Twenty()
+        {
+            // debugging
+            // Mhpf the teacher told me something about breakpoints ( in german: Brechpunkt :) )
+        }
+
+        // 4. Arrays
+
+        private static void TwentyOne()
+        {
+            /* intoduction to arrays
+            in CSharp arrays have a fixed size, so they are not used so often.
+            Instead they are using Collections or Lists to have something more dynamically.
+            Also arrays have a fixed Datatype, you cannot mix the values you save in arrays
+            */ 
+        }
+
+        private static void TwentyThree()
+        {
+            int[] numbers = new int[3]
+            {
+                1,
+                2,
+                3
+            };
         }
     }
 }
